@@ -1,0 +1,56 @@
+body {
+  padding-top: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.basic-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.basic-template .social .webicon{
+  margin: 10px;
+}
+
+.container .sidebar{
+  border-left: 1px solid #eee;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  /* Set the fixed height of the footer here */
+  height: 80px;
+  background-color: #f5f5f5;
+}
+
+.footer ul{
+  text-align: center;
+  list-style-type: none;
+  margin: 0 auto;
+  padding-top: 15px;
+  overflow: auto;
+  padding-left: 0px;
+}
+
+.footer li{
+  width: 220px;
+  margin-left: 0;
+  display: inline;
+  padding-right: 10px;
+}
+
+.footer ul a:link, #footer ul a:visited {
+  color: #fd432d;
+}
+
+.footer .extra{
+  padding-top: 8px;
+}
